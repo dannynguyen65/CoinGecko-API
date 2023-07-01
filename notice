@@ -1,0 +1,7 @@
+In this script, the get_crypto_info function uses the CoinGecko API to fetch information about a specific cryptocurrency using its ID. You can pass the crypto ID (e.g., "bitcoin", "ethereum", "dogecoin") to the get_crypto_info function, and it will return a dictionary containing various information about the cryptocurrency.
+
+In the example usage, we call get_crypto_info to fetch information about Bitcoin (crypto_id = 'bitcoin'). We then print some key information such as the current price, market cap rank, and total supply.
+
+This script can be useful for obtaining detailed information about cryptocurrencies, including their current price, market cap, supply, and more. You can modify it to retrieve additional information from the CoinGecko API or customize the output based on your needs.
+
+Make sure you have the requests library installed by running the command pip install requests.
